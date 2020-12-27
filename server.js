@@ -2,7 +2,6 @@ var PORT = process.env.PORT || 3000;
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
-const favicon = require('express-favicon')
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
