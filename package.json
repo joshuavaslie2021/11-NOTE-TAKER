@@ -1,5 +1,23 @@
 {
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "11-note-taker",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuavaslie2021/11-NOTE-TAKER.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuavaslie2021/11-NOTE-TAKER/issues"
+  },
+  "homepage": "https://github.com/joshuavaslie2021/11-NOTE-TAKER#readme",
+  "description": ""
 }
