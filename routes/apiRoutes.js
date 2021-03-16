@@ -10,15 +10,15 @@ module.exports = function (app) {
     })
 // post route to add note to list
     app.post("/api/notes", function (req, res) {
-        var newNote = {
+        var createNewNote = {
             //gives note id as an integer
-            id: noteData.length,
+            id: noteData.length + 1,
             title: req.body.title,
             text: req.body.text
         }
-        console.log(newNote)
-        noteData.push(newNote)
-        res.json(noteData)
+        console.log(createNewNote)
+        noteData.push(createNewNote)
+        res.json(createNewNote)
     })
 
     // Delete Route for Notes
