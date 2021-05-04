@@ -4,7 +4,7 @@
 
 ## DESCRIPTION
 
-This week's homework in bootcamp revolved around the week's cirriculum dealing with server hosting of applications on the web, using express and heroku CLI. Students were giving the majority of the files needed, save the server code that tied all files together. 
+This week's homework in bootcamp revolved around the week's cirriculum dealing with server hosting of applications on the web, using express and heroku CLI. 
 
 ## Table of Contents 
 
